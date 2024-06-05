@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,85 @@
     <link rel="stylesheet" href="./styles/main.css">
     <script src="scripts/main.js" defer></script>
   </head>
-  <body>
-    <h1 class="h1">Hello World 1</h1>
+  <body class="page__body">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="line">
+          <a href="tel:8 (812) 123-45-67" class="line__link">
+            <span class="icon icon--phone"></span>
+            8 (812) 123-45-67&nbsp&nbsp|&nbsp&nbspПрацюємо 7 днів на тиждень&nbsp&nbsp|&nbsp&nbsp9:00 — 18:00
+          </a>
+          <a href="#" class="line__link">
+            <span class="icon icon--log-in"></span>
+            Вхід / Реєстрація
+          </a>
+        </div>
+      </div>
+
+      <div class="header__wrapper header__wrapper--basic">
+        <a href="#" class="logo">
+          Porten
+        </a>
+
+        <div class="header__menu-icon">
+          <a href="#menu" class="icon icon--menu"></a>
+        </div>
+
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">сподобалось</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">особистий кабінет</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">налаштування</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--icon">
+                <span class="icon icon--cart"></span>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--icon">
+                <span class="icon icon--search"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__mobile-menu" id="menu">
+        <div class="header__full"></div>
+        <div class="header__menu-wrapper">
+          <a href="#" class="header__menu-close icon icon--close"></a>
+          <nav class="menu">
+            <ul class="menu__list menu__list--mobile">
+              <li class="menu__mobile-item">
+                <a href="#" class="menu__link menu__link--mobile">сподобалось</a>
+              </li>
+              <li class="menu__mobile-item">
+                <a href="#" class="menu__link menu__link--mobile">особистий кабінет</a>
+              </li>
+              <li class="menu__mobile-item">
+                <a href="#" class="menu__link menu__link--mobile">налаштування</a>
+              </li>
+              <li class="menu__mobile-item">
+                <a href="#" class="menu__link menu__link--mobile-icon menu__link--mobile">
+                  <span class="icon icon--cart"></span>
+                </a>
+              </li>
+              <li class="menu__mobile-item">
+                <a href="#" class="menu__link menu__link--mobile-icon menu__link--mobile">
+                  <span class="icon icon--search"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
   </body>
 </html>

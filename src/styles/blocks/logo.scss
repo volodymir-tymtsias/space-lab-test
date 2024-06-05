@@ -1,0 +1,7 @@
+.logo {
+  @extend %logo-text;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}

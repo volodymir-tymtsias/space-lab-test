@@ -41,7 +41,6 @@
 	"attr-validate": true,
 	"id-no-dup": true,
 	"id-class-no-ad": true,
-	"id-class-style": "underscore",
 	"class-no-dup": true,
 	"class-style": false,
 	"id-class-ignore-regex": false,

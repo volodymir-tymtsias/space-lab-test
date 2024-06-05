@@ -1,11 +1,12 @@
 @import "./normalize.css";
 
-
 @import "./utils/vars";
 @import "./utils/mixins";
-@import "./utils/extends";
 @import "./utils/typography";
 
-.h1 {
-  color: $dark-orange;
-}
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/line.scss";
+@import "./blocks/icon.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/menu.scss";
