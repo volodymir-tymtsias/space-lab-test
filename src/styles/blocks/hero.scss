@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+  overflow: hidden;
 
   &::after {
     content: '';
@@ -20,13 +21,21 @@
     opacity: 50%;
   }
 
+  &--collection {
+    height: 100%;
+    background: url('../images/collection-hero.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   &__content {
     position: relative;
+    top: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 5;
-    top: 30%;
 
     @include sm {
       top: 25%;
@@ -34,6 +43,23 @@
 
     @include lg {
       top: 30%;
+    }
+
+    @include xxl {
+      top: 284px;
+    }
+
+    &--collection {
+      top: 304px;
+      gap: 30px;
+
+      @include xl {
+        top: 384px;
+      }
+
+      @include xxl {
+        top: 484px;
+      }
     }
   }
 
