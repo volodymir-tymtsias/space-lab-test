@@ -5,11 +5,15 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 0;
-  min-height: 44px;
+  min-height: 34px;
 
   @include md {
     justify-content: space-between;
     gap: 20px;
+  }
+
+  @include lg {
+    min-height: 44px;
   }
 
   &__link {
