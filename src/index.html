@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Task</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./styles/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <script src="scripts/main.js" defer></script>
   </head>
   <body class="page__body">
@@ -124,44 +129,54 @@
           <h2 class="title">сезон 2021/22</h2>
           <div class="divider"></div>
           <div class="collection__wrapper">
-            <a href="#" class="product-card">
-              <div class="product-card__img-container">
-                <img
-                  src="./images/clock1.png"
-                  alt="Louis XVI ATHOS"
-                  title="Louis XVI ATHOS"
-                  class="product-card__img"
-                />
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="product-card">
+                  <div class="product-card__img-container">
+                    <img
+                      src="./images/clock1.png"
+                      alt="Louis XVI ATHOS"
+                      title="Louis XVI ATHOS"
+                      class="product-card__img"
+                    />
+                  </div>
+                  <h3 class="product-card__title">Louis XVI ATHOS</h3>
+                  <div class="product-card__price">13 600 грн.</div>
+                </a>
               </div>
-              <h3 class="product-card__title">Louis XVI ATHOS</h3>
-              <div class="product-card__price">13 600 грн.</div>
-            </a>
 
-            <a href="#" class="product-card">
-              <div class="product-card__img-container">
-                <img
-                  src="./images/clock2.png"
-                  alt="Carl von Zeyten"
-                  title="Carl von Zeyten"
-                  class="product-card__img"
-                />
+              <div class="swiper-slide">
+                <a href="#" class="product-card">
+                  <div class="product-card__img-container">
+                    <img
+                      src="./images/clock2.png"
+                      alt="Carl von Zeyten"
+                      title="Carl von Zeyten"
+                      class="product-card__img"
+                    />
+                  </div>
+                  <h3 class="product-card__title">Carl von Zeyten</h3>
+                  <div class="product-card__price">16 500 грн.</div>
+                </a>
               </div>
-              <h3 class="product-card__title">Carl von Zeyten</h3>
-              <div class="product-card__price">16 500 грн.</div>
-            </a>
 
-            <a href="#" class="product-card">
-              <div class="product-card__img-container">
-                <img
-                  src="./images/clock3.png"
-                  alt="JORD AR5905"
-                  title="JORD AR5905"
-                  class="product-card__img"
-                />
+              <div class="swiper-slide">
+                <a href="#" class="product-card">
+                  <div class="product-card__img-container">
+                    <img
+                      src="./images/clock3.png"
+                      alt="JORD AR5905"
+                      title="JORD AR5905"
+                      class="product-card__img"
+                    />
+                  </div>
+                  <h3 class="product-card__title">JORD AR5905</h3>
+                  <div class="product-card__price">65 000 грн.</div>
+                </a>
               </div>
-              <h3 class="product-card__title">JORD AR5905</h3>
-              <div class="product-card__price">65 000 грн.</div>
-            </a>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </article>
 
@@ -205,108 +220,129 @@
       <section class="new-arrivals">
         <h2 class="title">Нові надходження</h2>
         <div class="divider"></div>
-        <div class="new-arrivals__container">
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock2.png"
-                alt="Carl von Zeyten"
-                title="Carl von Zeyten"
-                class="product-card__img"
-              />
+        <div class="new-arrivals__content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock2.png"
+                    alt="Carl von Zeyten"
+                    title="Carl von Zeyten"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">Carl von Zeyten</h3>
+                <div class="product-card__price">16 500 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">Carl von Zeyten</h3>
-            <div class="product-card__price">16 500 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock3.png"
-                alt="JORD AR5905"
-                title="JORD AR5905"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock3.png"
+                    alt="JORD AR5905"
+                    title="JORD AR5905"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">JORD AR5905</h3>
+                <div class="product-card__price">65 000 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">JORD AR5905</h3>
-            <div class="product-card__price">65 000 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock4.png"
-                alt="Emporio Armani Sportivo"
-                title="Emporio Armani Sportivo"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock4.png"
+                    alt="Emporio Armani Sportivo"
+                    title="Emporio Armani Sportivo"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">Emporio Armani Sportivo</h3>
+                <div class="product-card__price">165 000 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">Emporio Armani Sportivo</h3>
-            <div class="product-card__price">165 000 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock5.png"
-                alt="Rolex Oyster Perpetual"
-                title="Rolex Oyster Perpetual"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock5.png"
+                    alt="Rolex Oyster Perpetual"
+                    title="Rolex Oyster Perpetual"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">Rolex Oyster Perpetual</h3>
+                <div class="product-card__price">280 000 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">Rolex Oyster Perpetual</h3>
-            <div class="product-card__price">280 000 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock1.png"
-                alt="Louis XVI ATHOS"
-                title="Louis XVI ATHOS"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock1.png"
+                    alt="Louis XVI ATHOS"
+                    title="Louis XVI ATHOS"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">Louis XVI ATHOS</h3>
+                <div class="product-card__price">65 000 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">Louis XVI ATHOS</h3>
-            <div class="product-card__price">65 000 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock6.png"
-                alt="U-Boat Italo Fontana"
-                title="U-Boat Italo Fontana"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock6.png"
+                    alt="U-Boat Italo Fontana"
+                    title="U-Boat Italo Fontana"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">U-Boat Italo Fontana</h3>
+                <div class="product-card__price">18 700 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">U-Boat Italo Fontana</h3>
-            <div class="product-card__price">18 700 грн.</div>
-          </a>
 
-          <a href="#" class="product-card">
-            <div class="product-card__img-container">
-              <img
-                src="./images/clock7.png"
-                alt="Gucci Men's G"
-                title="Gucci Men's G"
-                class="product-card__img"
-              />
+            <div class="swiper-slide">
+              <a href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <img
+                    src="./images/clock7.png"
+                    alt="Gucci Men's G"
+                    title="Gucci Men's G"
+                    class="product-card__img"
+                  />
+                </div>
+                <h3 class="product-card__title">Gucci Men's G</h3>
+                <div class="product-card__price">38 500 грн.</div>
+              </a>
             </div>
-            <h3 class="product-card__title">Gucci Men's G</h3>
-            <div class="product-card__price">38 500 грн.</div>
-          </a>
 
-          <div href="#" class="product-card">
-            <div class="product-card__img-container">
-              <div class="product-card__bg">
-                <div class="product-card__blur"></div>
-              </div>
-              <div class="product-card__button-container">
-                <button class="button button--font-playfair">показати всі</button>
+            <div class="swiper-slide">
+              <div href="#" class="product-card">
+                <div class="product-card__img-container">
+                  <div class="product-card__bg">
+                    <div class="product-card__blur"></div>
+                  </div>
+                  <div class="product-card__button-container">
+                    <button class="button button--font-playfair">показати всі</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
     </main>
