@@ -8,6 +8,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 47px;
+  font-style: normal;
   letter-spacing: calc(1em / 10);
   text-transform: uppercase;
   text-align: center;
@@ -17,5 +18,10 @@
 
   &:hover {
     background-color: $dark-gray;
+  }
+
+  &--font-playfair {
+    font-family: "Playfair Display", serif;
+    letter-spacing: normal;
   }
 }

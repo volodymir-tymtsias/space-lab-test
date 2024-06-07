@@ -2,16 +2,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   padding: 40px 10px;
 
-    @include md {
+    @include lg {
+      gap: 20px;
+      padding-top: 60px;
     }
 
     @include xl {
+      gap: 30px;
       padding-top: 80px;
     }
 
     @include xxl {
+      gap: 40px;
       padding-top: 120px;
+    }
+
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(1, 260px);
+      justify-content: center;
+      column-gap: 23px;
+      row-gap: 40px;
+      margin-top: 10px;
+
+      @include md {
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 260px);
+      }
+
+      @include lg {
+        margin-top: 30px;
+        grid-template-columns: repeat(3, 260px);
+      }
+
+      @include xl {
+        margin-top: 40px;
+        grid-template-columns: repeat(4, 260px);
+      }
     }
 }
