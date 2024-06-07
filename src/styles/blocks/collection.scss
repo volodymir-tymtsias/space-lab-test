@@ -13,14 +13,28 @@
   }
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     width: 100%;
+    padding: 20px 10px;
+
+    @include md {
+      gap: 20px;
+      padding-top: 30px;
+    }
 
     @include xl {
+      gap: 30px;
       width: 60%;
+      padding-top: 60px;
     }
 
     @include xxl {
+      gap: 50px;
       width: 54%;
+      padding-top: 93px;
     }
   }
 
@@ -36,44 +50,6 @@
     @include xxl {
       width: 46%;
     }
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 10px;
-
-    @include md {
-      gap: 20px;
-      padding-top: 30px;
-    }
-
-    @include xl {
-      gap: 30px;
-      padding-top: 60px;
-    }
-
-    @include xxl {
-      gap: 50px;
-      padding-top: 93px;
-    }
-  }
-
-  &__title {
-    @extend %title-text;
-    font-size: 36px;
-    line-height: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  &__divider {
-    width: 120px;
-    height: 1px;
-    background-color: $white;
   }
 
   &__wrapper {

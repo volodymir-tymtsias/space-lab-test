@@ -29,6 +29,14 @@
     background-repeat: no-repeat;
   }
 
+  &--old-collection {
+    height: 100%;
+    background: url('../images/collection-old-hero.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   &__content {
     position: relative;
     top: 30%;
@@ -113,15 +121,18 @@
     text-transform: uppercase;
 
     @include sm {
-      margin-top: 60px;
+      margin-top: 5%;
       font-size: 14px;
       line-height: 20px;
     }
     
     @include xl {
-      margin-top: 80px;
       font-size: 16px;
       line-height: 24px;
+    }
+
+    @include xxl {
+      margin-top: 80px;
     }
   }
 }

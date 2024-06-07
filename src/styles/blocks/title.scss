@@ -1,0 +1,13 @@
+.title {
+  @extend %title-text;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include lg {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
