@@ -4,15 +4,8 @@
   padding: 0 28px;
   background-color: transparent;
   border: 1px solid $white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 400;
+  @extend %button-text;
   line-height: 47px;
-  font-style: normal;
-  letter-spacing: calc(1em / 10);
-  text-transform: uppercase;
-  text-align: center;
-  color: $white;
   cursor: pointer;
   transition: all 0.3s;
 
