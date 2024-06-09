@@ -1,4 +1,5 @@
 # Test task landing page
+This landing page was created as a test task
 
 The following technologies were used during creation:
 -	HTML
