@@ -5,6 +5,7 @@ The following technologies were used during creation:
 -	CSS
 -	SASS
 -	BEM
+- Swiper.js
 ---
 #### [DEMO LINK](https://volodymir-tymtsias.github.io/space-lab-test/)
 

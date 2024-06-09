@@ -10,4 +10,16 @@
     font-size: 36px;
     line-height: 48px;
   }
+
+  &--footer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+
+    @include lg {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
 }

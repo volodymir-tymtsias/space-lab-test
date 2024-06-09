@@ -7,6 +7,9 @@
   background: $black;
 
   &__wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 34px;
     padding: 0 10px;
 
     @include sm {
@@ -16,6 +19,7 @@
       padding: 0 30px;
     }
     @include lg {
+      min-height: 44px;
       padding: 0 100px;
     }
     @include xl {

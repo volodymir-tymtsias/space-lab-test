@@ -1,13 +1,20 @@
 .button {
   display: flex;
-  height: 47px;
+  max-height: 40px;
   padding: 0 28px;
   background-color: transparent;
   border: 1px solid $white;
   @extend %button-text;
-  line-height: 47px;
+  font-size: 16px;
+  line-height: 40px;
   cursor: pointer;
   transition: all 0.3s;
+
+  @include md {
+    max-height: 47px;
+    line-height: 47px;
+    font-size: 18px;
+  }
 
   &:hover {
     background-color: $dark-gray;
@@ -16,5 +23,14 @@
   &--font-playfair {
     font-family: "Playfair Display", serif;
     letter-spacing: normal;
+  }
+
+  &--footer {
+    padding: 0 20px;
+    border: none;
+    background-color: $light-black;
+    font-size: 14px;
+    line-height: 42px;
+    max-height: 42px;
   }
 }

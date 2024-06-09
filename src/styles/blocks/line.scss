@@ -5,15 +5,18 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 0;
-  min-height: 34px;
+  height: 100%;
+  width: 100%;
 
   @include md {
     justify-content: space-between;
     gap: 20px;
   }
 
-  @include lg {
-    min-height: 44px;
+  &--footer {
+    @include sm {
+      column-gap: 50px;
+    }
   }
 
   &__link {
@@ -33,6 +36,7 @@
 
     &:hover {
       color: $white;
+      text-decoration: underline;
     }
   }
 }
