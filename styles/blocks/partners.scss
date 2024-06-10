@@ -1,0 +1,53 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 90px 40px 0 40px;
+  background-color: $light-black;
+
+  @include lg {
+    gap: 26px;
+  }
+
+  @include xl {
+    gap: 46px;
+  }
+
+  @include xxl {
+    gap: 66px;
+  }
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    min-height: 185px;
+    max-width: 1385px;
+    margin-bottom: 30px;
+
+    @include md {
+      margin-bottom: 50px;
+    }
+
+    @include lg {
+      margin-bottom: 80px;
+    }
+
+    @include xl {
+      margin-bottom: 106px;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    // flex-shrink: 1;
+    // flex-grow: 1;
+    max-height: 185px;
+    object-fit: contain;
+    object-position: center;
+  }
+}

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  font-weight: 700;
+  src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+%logo-text {
+  font-family: "Post No Bills Jaffna", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: $white;
+}
+
+%basic-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+}
+
+%title-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  color: $white;
+}
+
+%button-text {
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: calc(1em / 10);
+  text-transform: uppercase;
+  text-align: center;
+  color: $white;
+}

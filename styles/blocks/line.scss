@@ -1,0 +1,42 @@
+.line {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  height: 100%;
+  width: 100%;
+
+  @include md {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &--footer {
+    @include sm {
+      column-gap: 50px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: $gray;
+    transition: color 0.3s;
+
+    @include md {
+      gap: 15px;
+    }
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+}

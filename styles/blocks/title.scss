@@ -1,0 +1,25 @@
+.title {
+  @extend %title-text;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include lg {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  &--footer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+
+    @include lg {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}

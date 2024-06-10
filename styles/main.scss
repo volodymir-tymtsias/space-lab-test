@@ -1,0 +1,25 @@
+@import "./normalize.css";
+
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/typography";
+
+@import "./blocks/page.scss";
+@import "./blocks/header.scss";
+@import "./blocks/line.scss";
+@import "./blocks/icon.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/divider.scss";
+@import "./blocks/title.scss";
+@import "./blocks/collection.scss";
+@import "./blocks/product-card.scss";
+@import "./blocks/button.scss";
+@import "./blocks/collection-old.scss";
+@import "./blocks/new-arrivals.scss";
+@import "./blocks/articles.scss";
+@import "./blocks/article.scss";
+@import "./blocks/partners.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/category.scss";

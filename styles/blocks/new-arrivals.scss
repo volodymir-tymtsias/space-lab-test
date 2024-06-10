@@ -1,0 +1,71 @@
+.new-arrivals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 40px 10px 50px;
+
+    @include lg {
+      gap: 20px;
+      padding-top: 60px;
+      padding-bottom: 80px;
+    }
+
+    @include xl {
+      gap: 30px;
+      padding-top: 80px;
+      padding-bottom: 100px;
+    }
+
+    @include xxl {
+      gap: 40px;
+      padding-top: 120px;
+      padding-bottom: 150px;
+    }
+
+    &__content {
+      position: relative;
+      margin-top: 10px;
+      width: 260px;
+      overflow: hidden;
+
+      @include md {
+        margin-top: 20px;
+        width: 543px;
+      }
+
+      @include lg {
+        margin-top: 30px;
+        width: 826px;
+      }
+
+      @include xl {
+        width: 1109px;
+        margin-top: 40px;
+      }
+    }
+
+    & .swiper-button-prev,
+    & .swiper-button-next {
+      top: 163px;
+
+      &::after {
+        color: $white;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+
+    & .swiper-pagination {
+      bottom: 55px;
+    }
+
+    & .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      line-height: 10px;
+      font-size: 10px;
+      background: $white;
+    }
+}

@@ -1,0 +1,50 @@
+.icon {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  text-decoration: none;
+
+ 
+  &--phone {
+    -webkit-mask-image: url('../images/icons/phone.svg');
+    mask-image: url('../images/icons/phone.svg');
+  }
+
+  &--log-in {
+    -webkit-mask-image: url('../images/icons/log-in.svg');
+    mask-image: url('../images/icons/log-in.svg');
+  }
+
+  &--cart {
+    width: 22px;
+    height: 22px;
+    -webkit-mask-image: url('../images/icons/cart.svg');
+    mask-image: url('../images/icons/cart.svg');
+  }
+
+  &--search {
+    width: 22px;
+    height: 22px;
+    -webkit-mask-image: url('../images/icons/search.svg');
+    mask-image: url('../images/icons/search.svg');
+  }
+
+  &--menu {
+    background-color: $white;
+    -webkit-mask-image: url('../images/icons/menu.svg');
+    mask-image: url('../images/icons/menu.svg');
+  }
+
+  &--close {
+    -webkit-mask-image: url('../images/icons/close.svg');
+    mask-image: url('../images/icons/close.svg');
+  }
+}

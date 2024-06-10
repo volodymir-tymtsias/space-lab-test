@@ -1,0 +1,17 @@
+.logo {
+  @extend %logo-text;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &--hero {
+    font-size: 44px;
+    line-height: 66px;
+
+    @include xl {
+      font-size: 64px;
+      line-height: 86px;
+    }
+  }
+}

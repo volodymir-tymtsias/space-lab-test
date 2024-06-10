@@ -1,0 +1,13 @@
+.page {
+  @extend %basic-text;
+
+  scroll-behavior: smooth;
+
+  &__body {
+    background: $black;
+
+    &--with-menu {
+      overflow: hidden;
+    }
+  }
+}
