@@ -60,6 +60,9 @@
 .page__body {
   background: #000000;
 }
+.page__body--with-menu {
+  overflow: hidden;
+}
 
 .header {
   position: absolute;
@@ -1148,6 +1151,13 @@
   color: #d0d0d0;
 }
 .footer__form-field:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.footer__form-field:-webkit-autofill, .footer__form-field:-webkit-autofill:hover, .footer__form-field:-webkit-autofill:focus {
+  outline: none;
+  border: none;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #969696 inset;
   background-color: rgba(255, 255, 255, 0.3);
 }
 

@@ -5,5 +5,9 @@
 
   &__body {
     background: $black;
+
+    &--with-menu {
+      overflow: hidden;
+    }
   }
 }
